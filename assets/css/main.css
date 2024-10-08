@@ -651,8 +651,7 @@ banner
 */
 
 .main-banner {
-  border-bottom: 3px dotted #eee;
-  padding-top: 160px;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
@@ -1099,10 +1098,12 @@ Kids
 }
 
 #kids .item .down-content {
-  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
   position: relative;
   z-index: 3;
   background-color: #fff;
+  border-bottom: 1px solid #b1aeae;
 }
 
 #kids .item .down-content h4 {
@@ -1120,9 +1121,7 @@ Kids
 }
 
 #kids .item .down-content ul.stars {
-  position: absolute;
-  right: 0;
-  top: 30px;
+
 }
 
 #kids .item .down-content ul.stars li {
@@ -1252,7 +1251,6 @@ Explore
 #explore {
   padding-top: 90px;
   padding-bottom: 90px;
-  border-bottom: 3px dotted #eee;
 }
 
 #explore .left-content {
@@ -1332,10 +1330,9 @@ Explore
 
 #explore .leather h4,
 #explore .types h4 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
-  color: #2a2a2a;
-  padding-top: 90px;
+  color: #7a7979;
   margin-bottom: 5px;
 }
 
@@ -2383,4 +2380,61 @@ responsive
 
 .logo img{
  width: 220px;
+}
+
+
+
+
+.heading-box h2{ width:100%; color: red; }
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+
+.welcome-icon{
+  width: 100px !important;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.counter {
+  background-color:#f5f5f5;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #737272;
 }
