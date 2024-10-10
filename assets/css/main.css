@@ -1573,7 +1573,7 @@ Products Page
 .page-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: url(../images/products-page-heading.jpg);
+  background-image: url(../images/banner/sub-banner.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1801,12 +1801,11 @@ Single Product Page
 
 .quantity-content {
   margin-top: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
   border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
   width: 100%;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .quantity-content .left-content {
@@ -1912,7 +1911,7 @@ About Us Page
 .about-page-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: url(../images/about-us-page-heading.jpg);
+  background-image: url(../images/banner/sub-banner.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2458,4 +2457,71 @@ responsive
   font-weight: 500;
   display: block;
   list-style: disc;
+}
+
+.quantity-content h5{
+  display: inline;
+  font-size: 16px;
+}
+
+
+.whatsappbtn {
+  background: #25d366;
+  padding: 5px 10px !important;
+  border: 1px solid #fff !important;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.whatsappbtn i {
+  font-size: 48px;
+  color: #fff;
+}
+
+.whatsappbtn span {
+  color: #fff !important;
+  padding-left: 10px;
+  position: relative;
+  bottom: 8px;
+  font-size: 23px !important;
+  display: inline-block !important;
+  margin: 0 !important;
+}
+
+.product-desp h4{
+  margin-bottom: 1rem;
+  font-size: 24px;
+}
+.product-desp p{
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.detail-table{
+  height: 1px;
+  width: 100%;
+  display: table;
+}
+.detail-table tbody{
+font-size: 14px;
+}
+.detail-table tr{
+margin: 10px;
+}
+.detail-table td{
+padding: 10px;
+}
+.headHr{
+  background: #f7a923;
+  color: #000;
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+.table-scroll{
+  overflow-x: scroll;
+}
 }
